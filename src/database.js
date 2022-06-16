@@ -1,0 +1,3 @@
+const database = [];
+
+export { database };
