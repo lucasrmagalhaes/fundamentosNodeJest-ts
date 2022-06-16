@@ -3,3 +3,15 @@
 **Single-thread x Multi-thread**
 - Single-thread: cria uma pilha com as funções chamadas e executa uma por vez, mesmo que elas sejam concorrentes.
 - Multi-thread: Executa as ações paralelamente, independente se estas são concorrentes.
+
+```
+npm init --y
+```
+
+```
+yarn add nodemon
+```
+
+```
+yarn add express
+```
