@@ -1,11 +1,10 @@
 import { Router } from 'express';
-import { usersController } from './controllers/usersController.js';
-import { database } from './database.js';
+import { UsersController } from './controllers/usersController';
 
 const routes = Router();
+const usersController = new UsersController();
 
 routes.get('/users', usersController.listarUsuario);
-
 routes.post('/users', usersController.criarUsuario);
 
 export { routes };
