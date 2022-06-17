@@ -15,3 +15,17 @@ yarn add nodemon
 ```
 yarn add express
 ```
+
+**O que é TypeScript?** É uma linguagem de programação e um superset do JavaScript. Ele permite trabalhar com tipagens no desenvolvimento das aplicações.
+
+```
+yarn add -D typescript
+```
+
+```
+npx tsc --init
+```
+
+```
+yarn add -D @types/express
+```
