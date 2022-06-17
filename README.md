@@ -29,3 +29,27 @@ npx tsc --init
 ```
 yarn add -D @types/express
 ```
+
+```
+yarn add -D @types/node
+```
+
+**O que é o Jest?** É uma framework, desenvolvido pelo Facebook, que permite escrever testes automatizados em aplicações JS ou TS.
+
+```
+yarn add -D jest
+```
+
+```
+yarn add -D @types/jest
+```
+
+```
+yarn add -D ts-jest
+```
+
+**Extensão:** Jest Runner
+
+```
+npx jest --init
+```
