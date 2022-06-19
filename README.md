@@ -53,3 +53,8 @@ yarn add -D ts-jest
 ```
 npx jest --init
 ```
+
+**Padrão AAA** 
+- Arrange - Montagem do cenário de testes;
+- Act - Ação que será testada; e
+- Assert - Validação dos resultados esperados.
