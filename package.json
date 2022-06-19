@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Fundamentos de Node.js e Jest",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "build": "rm -rf ./build && tsc",
+    "start": "node build/index.js",
     "dev": "ts-node-dev src/index.ts",
     "test": "jest"
   },

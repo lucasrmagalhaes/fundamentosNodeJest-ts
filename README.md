@@ -58,3 +58,11 @@ npx jest --init
 - Arrange - Montagem do cenário de testes;
 - Act - Ação que será testada; e
 - Assert - Validação dos resultados esperados.
+
+**Mocks:** São objetos, que substituem implementações reais em um cenário de testes unitários. Isso permite validar apenas os comportamentos afetados pelo novo componente.
+
+**Testes Unitários:** São os testes mais simples de serem escritos na aplicação. Como o nome sugere a ideia é testar apenas o componente (unidade) ao qual ele faz referência.
+
+```
+yarn test
+```
